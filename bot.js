@@ -28,7 +28,7 @@ bot.on("message", (msg) => {
     const text = msg.text;//prende testo della chat
 
     if (text === "/start") {//se utente scrive start
-        bot.sendMessage(chatId, "Scegli una data nel formato AAA-MM-GG (es 2025-04-01) per vedere le partite:");//ti diche che fare 
+        bot.sendMessage(chatId, "Scegli una data nel formato AAAA-MM-GG (es 2025-04-01) per vedere le partite:");//ti diche che fare 
     } 
     else if (text === "/help") {//se hai bisogno e scrivi help stampa cosa fa il bot
         bot.sendMessage(chatId, "🔹 Guida di GolBot 🔹\n\n" +
